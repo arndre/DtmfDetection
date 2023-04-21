@@ -1,4 +1,4 @@
-# DtmfDetection & DtmfDetection.NAudio
+# DtmfDetection & DtmfDetection.NAudio (2.1) .NET 6.0
 
 [![build](https://img.shields.io/appveyor/build/bert2/dtmf-detection/master?logo=appveyor)](https://ci.appveyor.com/project/bert2/dtmf-detection/branch/master) [![tests](https://img.shields.io/appveyor/tests/bert2/dtmf-detection/master?compact_message&logo=appveyor)](https://ci.appveyor.com/project/bert2/dtmf-detection/branch/master) [![coverage](https://img.shields.io/codecov/c/github/bert2/DtmfDetection/master?logo=codecov)](https://codecov.io/gh/bert2/DtmfDetection) [![nuget package](https://img.shields.io/nuget/v/DtmfDetection.NAudio.svg?logo=nuget)](https://www.nuget.org/packages/DtmfDetection.NAudio) [![nuget downloads](https://img.shields.io/nuget/dt/DtmfDetection.NAudio?color=blue&logo=nuget)](https://www.nuget.org/packages/DtmfDetection.NAudio) ![last commit](https://img.shields.io/github/last-commit/bert2/DtmfDetection/master?logo=github)
 
