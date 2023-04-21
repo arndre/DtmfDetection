@@ -31,7 +31,7 @@
 
         private static void PrintHeader() {
             var v = Assembly.GetExecutingAssembly().GetName().Version ?? new Version();
-            Console.WriteLine($"dtmf-detector {v.Major}.{v.Minor}.{v.Build} (https://github.com/bert2/DtmfDetection)\n");
+            Console.WriteLine($"dtmf-detector {v.Major}.{v.Minor}.{v.Build} (https://github.com/arndre/DtmfDetection)\nforked from https://github.com/bert2/DtmfDetection updated to NAudio 2.1, .NET 6.0");
         }
 
         private static void PrintHelp() {
@@ -109,7 +109,7 @@
                 State.NotAnalyzing => "[M]   analyze microphone input\n"
                                     + "[O]   analyze current audio output\n"
                                     + "[Esc] quit",
-                _                  => "[Esc] stop analyzing"
+                _ => "[Esc] stop analyzing"
             });
 
             Console.WriteLine();
@@ -129,3 +129,4 @@
         }
     }
 }
+
